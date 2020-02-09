@@ -10,6 +10,8 @@
 	<div class="dashboardGrid">
 		<div class="sidebar bg-light">
 			<div class="sidebarImg mt-5 rounded-circle bg-primary">
+				<img src="/img/your-logo.png" class="w-100">
+				<h4>{{businessUser.organizationName}}</h4>
 			</div>
 			<div class="sidebarMenu">
 				<div class="sidebarMenuItem pt-2 pb-2 w-100 text-center {{activeLink "overview" pagename}}">
@@ -35,7 +37,8 @@
 				<div></div>
 			</div>
 			<div class="sidebarFooter mb-5">
-				<a href="/logout">logout</a>
+				<a href="/logout"><i class="fas fa-sign-out-alt fa-2x"></i></a>
+				
 			</div>
 
 		</div>
